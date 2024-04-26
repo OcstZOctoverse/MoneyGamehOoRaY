@@ -53,7 +53,7 @@ while True:
       print("You got a job!")
       job = True
       happiness += 5
-    if smartness >10:
+    if smartness < 10:
       print("Too stupid to get a job")
       happiness -= 5
     else:
