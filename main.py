@@ -49,13 +49,14 @@ while True:
     if spell == "wish":
       money += 10
   if action == "get job":
-    if smartness >= 10:
-      print("You got a job!")
-      job = True
-      happiness += 5
-    if smartness < 10:
-      print("Too stupid to get a job")
-      happiness -= 5
+    if job = False
+      if smartness >= 10:
+        print("You got a job!")
+        job = True
+        happiness += 5
+      if smartness < 10:
+        print("Too stupid to get a job")
+        happiness -= 5
     else:
       print("You already have a job!")
   if action == "study":
@@ -66,9 +67,9 @@ while True:
     job = False
     happiness += 14
   if action == "marry rich":
-    money += 10
     if married is False:
       married = True
+      money += 10
       if husbandgood == "the partner is good":
         print("the partner is good")  
         happiness += 7
@@ -123,4 +124,4 @@ while True:
     break
   if money < 0:
     print("You are in debt. -3 happiness")
-    happiness -= 3
+    happiness -= 12
