@@ -49,7 +49,7 @@ while True:
     if spell == "wish":
       money += 10
   if action == "get job":
-    if job = False
+    if job == False:
       if smartness >= 10:
         print("You got a job!")
         job = True
